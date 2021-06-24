@@ -490,7 +490,7 @@ p ,h3{
     width: 85%;
 }
 .brand::after{
-    content: '95%';
+    content: '85%';
 
 }
 
