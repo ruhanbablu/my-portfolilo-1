@@ -669,6 +669,204 @@ p ,h3{
 
 /* portfolio style end */
 
+/* work section start*/
+.work-section{
+    padding: 80px 0px;
+    background-color: #f9f9f9;
+}
+.work-title{
+    font-size: 31px;
+    line-height: 38px;
+    color: #1D2043;
+    margin-bottom: 30px;
+
+    
+    }
+    .work-text{
+        padding-right: 10px;
+        padding-bottom: 30px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .card-block{
+        display: flex;
+
+    }
+    .card{
+        width: 33.33%;
+        background-color: #01a3a4;
+        margin: 0px 15px;
+        border-radius: 10px;
+        padding: 50px;
+        font-family: 'Poppins', sans-serif;
+
+
+    }
+    .card:nth-child(1){
+        margin-left:0px;
+        background-color: #2e86de;
+    }
+    .card:last-child{
+        margin-right: 0px;
+        background-color: #78add9;
+    }
+    .card-icon{
+       height: 50px;
+       width: 50px;
+       margin-bottom: 50px;
+    }
+    .card-heading{
+        font-size: 22px;
+        line-height: 16px;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    .card-text{
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        margin-bottom: 50px;
+        
+    }
+    .card button{
+
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        
+        padding: 8px 15px;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        background-color:rgba(255,255,255, 0.1);
+        border-radius: 5px;
+        outline: none;
+        transition:all .5s ease-in-out;
+        margin-bottom: 30px;
+    
+    
+    }
+    .card button:hover{
+        background-color:rgba(255,255,255, 0.5);
+        
+        border-radius: 5px;
+       
+    }
+    
+    .card button i {
+        padding-left: 5px;
+        transition: all 300ms ease;
+    }
+    .card button:hover i{
+        transform: translateX(8px);
+    }
+/* work section end*/
+/* contact style  */
+.contact-section{
+    padding: 60px 0px;
+
+}
+.contact-flex-box{
+    display: flex;
+    align-items: center;
+}
+/* .half-block{
+    flex: 0 0 50%;
+    width: 50%;
+} */
+.contact-title{
+    font-size: 31px;
+    line-height: 38px;
+    color: #1D2043;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+
+}
+.contact-img{
+    width: 100%;
+}
+.input{
+   
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ababab;
+    width: 100%;
+    font-size: 18px;
+}
+label{
+    font-size: 20px;
+    color: #ababab;
+}
+
+.cta-btn{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    background-color: black;
+    padding: 8px 15px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+   background-color: #df3534;
+    border-radius: 5px;
+    outline: none;
+    transition:all .5s ease-in-out;
+    margin-bottom: 30px;
+    border: 2px solid #fff;
+    float: right;
+
+}
+.cta-btn:hover{
+    background-color: #fff;
+    
+    border-radius: 5px;
+    border: 2px solid #df3534;
+    color: #df3534;
+   
+}
+
+.cta-btn i {
+    padding-left: 5px;
+    transition: all 300ms ease;
+}
+.cta-btn:hover i{
+    transform: translateX(8px);
+}
+
+/* footer style */
+
+footer{
+    text-align: center;
+    padding: 80px 0px;
+}
+.footer-title{
+    font-size: 35px;
+    color: #1D2043;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+.footer-email, .location, .phone-number{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.location{
+    margin-bottom: 15px;
+}
+.footer-email{
+    margin-bottom: 15px;
+}
+.main-footer{
+    background-color: #df3534;
+    width: 100%;
+}
+.copy-right{
+    text-align: center;
+    padding: 5px 5px;
+    color: #fff;
+}
 
 
 
@@ -856,4 +1054,62 @@ p ,h3{
         }
         
     /* portfolio style end */
+    /* work section  */
+    .work-section{
+        padding: 40px 02px;
+        padding: 20px 10px;
+        
+    }
+    .work-title{
+        font-size: 25px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    
+
+
+    }
+    .card-block{
+        flex-direction: column;
+    
+
+    }
+    .card{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 10px;
+
+
+    }
+    /* contact  */
+    .contact-flex-box{
+        flex-direction: column;
+    }
+    .cta-btn{
+        float: none;
+    }
+
+    /* footer */
+    footer{
+        text-align: center;
+        padding: 40px 0px;
+    }
+    .footer-title{
+        font-size: 25px;
+        color: #1D2043;
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 15px;
+    }
+    
+    .footer-email, .location, .phone-number{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .location{
+        margin-bottom: 10px;
+    }
+    .footer-email{
+        margin-bottom: 10px;
+    }
+    
 }
